@@ -18,7 +18,7 @@ Our stakeholder is a haxball player, sick of other game master's abuses, so he a
 # Stakeholders
 | Stakeholder name  | Description        | 
 | :---------------: |:-------------------|
-| Users           | They are interested in finding a cool bot, that manage game in a fair and cool mode and can show their achievments. | 
+| Users           | They are interested in finding a cool bot, that manage game in a fair and cool mode and it can show their achievments. | 
 | Owners          | They are interested to improve Haxball Community with an automatized and fair system. |
 | Devolpers       | They are interest to do a good platform that can be reused in others project and get their exam with maximum vote. |
 
@@ -36,4 +36,8 @@ Our stakeholder is a haxball player, sick of other game master's abuses, so he a
 ## Non-Functional Requirements
 | ID        | Type (efficiency, reliability) | Description  | Refers to |
 | ------------- |:----------:| :---------------| :-----:|
-| NF_1	| Usability | System should be easy to use throught a command list sended by chat. | All FR |
+| NF_1	| Usability | System should be easy to use throught a command list sended by chat. | All RF |
+| NF_2 	| Disaster recovery | System should check and resolve disaster situation caused by human (ex. all entire team left). | ALL RF |
+| NF_3 	| Safety | System should prevent bullying and sharing sensitive content by players. | RF_4 & RF_5 |
+| NF_4 	| Security | System should use a two-factor auth. | RF_3 |
+| NF_5 	| Reusability | System should be able to be reused (required a modular programming on [HHM](https://github.com/saviola777/haxball-headless-manager) | AFF RF |

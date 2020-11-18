@@ -1,5 +1,5 @@
 # Haxball Bot Room Manager
-This is a project for Software Engineering Exam about design a bot for manage an Haxball's room.
+This is a project for course "Software Engineering" about design a bot for manage an Haxball's room.
 
 # Contents
 - [Abstract](#abstract)
@@ -7,7 +7,9 @@ This is a project for Software Engineering Exam about design a bot for manage an
 - [Functional and non functional requirements](#functional-and-non-functional-requirements)
 	+ [Functional Requirements](#functional-requirements)
 	+ [Non functional requirements](#non-functional-requirements)
-  
+- [Use case diagram and use cases](#use-case-diagram-and-use-cases)
+	+ [Use case diagram](#use-case-diagram)
+	+ [Use cases](#use-cases)
   
 # Abstract
 
@@ -37,7 +39,12 @@ Our stakeholder is a haxball player, sick of other game master's abuses, so he a
 | ID        | Type (efficiency, reliability) | Description  | Refers to |
 | ------------- |:----------:| :---------------| :-----:|
 | NF_1	| Usability | System should be easy to use throught a command list sended by chat. | All RF |
-| NF_2 	| Disaster recovery | System should check and resolve disaster situation caused by human (ex. all entire team left). | ALL RF |
+| NF_2 	| Disaster recovery | System should check and resolve disaster situation caused by human (ex. all entire team left). | All RF |
 | NF_3 	| Safety | System should prevent bullying and sharing sensitive content by players. | RF_4 & RF_5 |
 | NF_4 	| Security | System should use a two-factor auth. | RF_3 |
-| NF_5 	| Reusability | System should be able to be reused (required a modular programming on [HHM](https://github.com/saviola777/haxball-headless-manager)) | AFF RF |
+| NF_5 	| Reusability | System should be able to be reused (required a modular programming on [HHM](https://github.com/saviola777/haxball-headless-manager)) | All RF |
+
+# Use case diagram and use cases
+## Use case diagram
+![Use Case User](./UseDiagram_User.png) 
+![Use Case Bot](./UseDiagram_Bot.png) 

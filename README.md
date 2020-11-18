@@ -1,7 +1,7 @@
 # Haxball Bot Room Manager
 This is a project for Software Engineering Exam about design a bot for manage an Haxball's room.
 
-#Contents
+# Contents
 - [Abstract](#abstract)
 - [Stakeholders](#stakeholders)
 - [Functional and non functional requirements](#functional-and-non-functional-requirements)
@@ -27,13 +27,13 @@ Our stakeholder is a haxball player, sick of other game master's abuses, so he a
 ## Functional Requirements
 | ID       |Description  |
 | ---------|:-------------| 
-|  REQ1   | Handle automatically game initialization in a specified mode. |
-|  REQ2   | Handle registration and authentication and make sure that nickname is unique. |
-|  REQ3   | Monitor and save the stats for each game and registered players. |
-|  REQ4   | Cool stuff chat with emoji's shurtcut. |
-|  REQ5   | Avoid malicious behavior by players. |
+|  RF_1   | Handle automatically game initialization in a specified mode. |
+|  RF_2   | Handle registration and authentication and make sure that nickname is unique. |
+|  RF_3   | Monitor and save the stats for each game and registered players. |
+|  RF_4   | Cool stuff chat with emoji's shurtcut. |
+|  RF_5   | Avoid malicious behavior by players. |
 
 ## Non-Functional Requirements
 | ID        | Type (efficiency, reliability) | Description  | Refers to |
 | ------------- |:----------:| :---------------| :-----:|
-
+| NF_1	| Usability | System should be easy to use throught a command list sended by chat. | All FR |

@@ -41,7 +41,7 @@ Our stakeholder is a haxball player, sick of other game master's abuses, so he a
 | NF_1	| Usability | System should be easy to use throught a command list sended by chat. | All RF |
 | NF_2 	| Disaster recovery | System should check and resolve disaster situation caused by human (ex. all entire team left). | All RF |
 | NF_3 	| Safety | System should prevent bullying and sharing sensitive content by players. | RF_4 & RF_5 |
-| NF_4 	| Security | System should use a two-factor auth. | RF_3 |
+| NF_4 	| Security | System should use a two-factor auth. | RF_2 |
 | NF_5 	| Reusability | System should be able to be reused (required a modular programming on [HHM](https://github.com/saviola777/haxball-headless-manager)) | All RF |
 
 # Use case diagram and use cases

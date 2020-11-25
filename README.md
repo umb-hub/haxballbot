@@ -46,5 +46,4 @@ Our stakeholder is a haxball player, sick of other game master's abuses, so he a
 
 # Use case diagram and use cases
 ## Use case diagram
-![Use Case User](./UseDiagram_User.png) 
-![Use Case Bot](./UseDiagram_Bot.png) 
+![Use Case User](./UseDiagram.png)

@@ -14,7 +14,7 @@ This is a project for course "Software Engineering" about design a bot for manag
 # Abstract
 
 Haxball is a physics-based multiplayer soccer game without any login process. To play it's enough insert a nickname and choose a room to play. Anyone can create his room or partecipate to another's one, his architecture is a P2P architecture-based but a server entity is used to prevent attacks. Haxball's community is the core of the game, infact this game is really customizable and his users creates maps and gamemodes.
-Cause of p2p architecture room's owner network is not suitable to handle multiple connection, or room's owner abuse their role to get an unfair game. To avoid those problems creator game enable users to make their own automated game rooms through [API](https://github.com/haxball/haxball-issues/wiki/Headless-Host))
+Cause of p2p architecture room's owner network is not suitable to handle multiple connection, or room's owner abuse their role to get an unfair game. To avoid those problems creator game enable users to make their own automated game rooms through [API](https://github.com/haxball/haxball-issues/wiki/Headless-Host).
 Our stakeholder is a haxball player, sick of other game master's abuses, so he asks us a wonderful bot to manage his room.
 
 # Stakeholders
@@ -46,4 +46,4 @@ Our stakeholder is a haxball player, sick of other game master's abuses, so he a
 
 # Use case diagram and use cases
 ## Use case diagram
-![Use Case User](./UseDiagram.png)
+![Use Case User](./Use_Diagram.png)
